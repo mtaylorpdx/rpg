@@ -31,4 +31,12 @@ describe('Character', () => {
     expect(character.level).toEqual(2);
   });
 
+  test('should exchange skill for stats', () => {
+    character.skill = 10;
+    character.selectName("warrior");
+    character.spendSkill(2, "strength");
+    console.log(character);
+    expect(character.strength).toEqual(8);
+  });
+
 });

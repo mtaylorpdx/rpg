@@ -11,12 +11,17 @@ export class Character {
   }
 
   spendSkill(skill, stat) {
-    let
     if (this.skill < skill) {
       console.log("Not enough skill points")
+    } else if (stat = "strength") {
+      this.skill = (this.skill - skill);
+      this.strength = (this.strength + skill);
+    } else if (stat = "dex") {
+      this.skill = (this.skill - skill);
+      this.dex = (this.dex + skill);
     } else {
       this.skill = (this.skill - skill);
-      this.stat
+      this.magic = (this.magic + skill);
     }
   }
   
@@ -26,14 +31,12 @@ export class Character {
       this.level += 1;
       this.skill += (this.level * 2);
       this.xp = 0;
-      console.log(this);
     }
   }
 
   selectName(name) {
     this.characterName = name;
     this.setClass();
-    console.log(this);
   }  
 
   setClass() {
@@ -42,31 +45,30 @@ export class Character {
       this.strength = 6;
       this.dex = 4;
       this.magic = 3;
-      console.log(this);
     } else if (this.characterName = "mage") {
         this.health = 9;
         this.strength = 4;
         this.dex = 6;
         this.magic = 10;
-        console.log(this);
+
     } else if (this.characterName = "rogue") {
         this.health = 10;
         this.strength = 7;
         this.dex = 5;
         this.magic = 4;
-        console.log(this);
+
     } else if (this.characterName = "cursed") {
         this.health = 5;
         this.strength = 15;
         this.dex = 8;
         this.magic = 8;
-        console.log(this);
+
     } else if (this.characterName = "deprived") {
         this.health = 4;
         this.strength = 5;
         this.dex = 2;
         this.magic = 5;
-        console.log(this);
+
     }
   }
 }

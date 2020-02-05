@@ -16,6 +16,8 @@
 * Inventory (consistent of stat buffs and otherwise)
   * Input: User utilizes inventory items that buff particular stats, or damage them.
   * Output: temporary buffs or reduction. 
+* Items 
+  * 
 
 
 ** Array of arrays steam link**
