@@ -19,6 +19,16 @@ describe('Character', () => {
     expect(character.characterName).toEqual("warrior");
   });
 
-  
+  test('should check character stats based on user selection', () => {
+    let characterSelect = "warrior";
+    character.selectName(characterSelect)
+    expect(character.dex).toEqual(4);
+  });
+
+  test('should increment level based on aquired/factored xp gain.', () => {
+    let xp = 1001;
+    character.incrementLevel(xp);
+    expect(character.level).toEqual(2);
+  });
 
 });
