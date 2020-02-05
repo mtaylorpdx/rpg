@@ -7,6 +7,10 @@
   * Input: User commits basic attack, has the option to attack again or defend.
   * Output: effect on enemy encounter. Enemy has potential to respond.
 * Level Up (initially based on an incremental count)
+  * Notes:
+    * Adjust monster-discovery range based on current level.
+    * xp is earned based on if NEW monster is discovered.
+
   * Input: After user has downed a value of enemies.
   * Output: System tells user new level
 * Inventory (consistent of stat buffs and otherwise)

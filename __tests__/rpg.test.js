@@ -17,6 +17,8 @@ describe('Character', () => {
     let characterSelect = "warrior"
     character.selectName(characterSelect)
     expect(character.characterName).toEqual("warrior");
-  
   });
+
+  
+
 });
