@@ -75,7 +75,3 @@ export class Character {
     }
   }
 }
-
-class Warrior extends Character {
-
-}

@@ -12,7 +12,6 @@ export class Monsters {
   // Set stat values for randomly generated monster. Number represents monster ID. //
   generateMonster() {
     this.random = Math.floor((Math.random() * 2) + 1);
-    console.log(this.random)
   }
 
   masterMonsterList() {
