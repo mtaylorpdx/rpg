@@ -69,7 +69,7 @@ export class Character {
       //  You're screwed... //
     } else if (this.characterName = "deprived") {
         this.health = 4;
-        this.strength = 5;
+        this.strength = 3;
         this.dex = 2;
         this.magic = 5;
     }
