@@ -43,31 +43,31 @@ export class Character {
     // Class stat total max is 30 //
 
     // Warrior is big health and strength dependent //
-    if (this.characterName = "warrior") {
+    if (this.characterName === "warrior") {
       this.health = 12;
       this.strength = 8;
       this.dex = 6;
       this.magic = 4;
     // Mage is magic and dex dependent //
-    } else if (this.characterName = "mage") {
+    } else if (this.characterName === "mage") {
         this.health = 9;
         this.strength = 4;
         this.dex = 6;
         this.magic = 11;
     // Rogue is dex dependent //
-    } else if (this.characterName = "rogue") {
+    } else if (this.characterName === "rogue") {
         this.health = 10;
         this.strength = 6;
         this.dex = 10;
         this.magic = 4;
       // Cursed is dependent on buffs for dex and survivability //
-    } else if (this.characterName = "cursed") {
+    } else if (this.characterName === "cursed") {
         this.health = 5;
         this.strength = 10;
         this.dex = 7;
         this.magic = 8;
       //  You're screwed... //
-    } else if (this.characterName = "deprived") {
+    } else if (this.characterName === "deprived") {
         this.health = 4;
         this.strength = 3;
         this.dex = 2;
