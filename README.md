@@ -17,7 +17,22 @@
   * Input: User utilizes inventory items that buff particular stats, or damage them.
   * Output: temporary buffs or reduction. 
 * Items 
-  * 
+  * Input: weapon array elements correlate with weild requirement and stat bonus.
+  * Ouput: attack/damage value.
+* Monsters
+  * Input: Monsters are given similar stats to player.
+    * Random number generator.
+  * Generate random monster encounter.
+* Gain XP from Monsters
+  * Input: Character defeats monster.
+  * Output: Acquires XP.
+* Battle System!
+  * Input: Player clicks attack button.
+  * Output: Damage dealt to monster based on character stats and weapon.
+* Display text/images and prompt the user for inputs.
+  * Input: user hits a button for attack.
+  * Output: attack commences.
+    * Monster's stats are effected and shown to the user.
 
 
 ** Array of arrays steam link**
